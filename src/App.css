@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.account{
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.task-complete{
+  color: red;
+  text-decoration: line-through;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.task-incomplete{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav{
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+.todo-list {
+  display: block;
+  margin: 15px;
+  text-align: center;
+
+}
+
+.nav:hover{
+  background-color: gray;
 }
